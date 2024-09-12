@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Feedback - EcoTech</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <div class="feedback-container">
+        <h2>Sistema de Feedback - Missão</h2>
+        
+        <!-- Avaliação da missão -->
+        <div class="rating-section">
+            <h3>Avalie a Missão</h3>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 estrelas">★</label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 estrelas">★</label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 estrelas">★</label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 estrelas">★</label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 estrela">★</label>
+            </div>
+        </div>
+
+        <!-- Sugestões de melhorias -->
+        <div class="suggestion-section">
+            <h3>Sugira Melhorias</h3>
+            <textarea id="suggestion" placeholder="Escreva suas sugestões de melhorias aqui..."></textarea>
+        </div>
+
+        <!-- Botão de envio -->
+        <div class="submit-section">
+            <button type="submit">Enviar Feedback</button>
+        </div>
+        <section class="navigation">
+            <a href="index.html" class="btn">Voltar à Tela Inicial</a>
+        </section>
+    </div>
+</body>
+</html>
